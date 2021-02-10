@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612848085888' stop='1612848094220'>
+    <name>LOGIN</name>
+    <title>LOGIN</title>
+    <test-cases>
+        <test-case start='1612848085888' status='broken' stop='1612848094219'>
+            <name>MyLogin</name>
+            <title>MyLogin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1612848085892' status='passed' stop='1612848091652'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='94fbb1bc-1782-4c88-999c-183a351e1fbf-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091655' status='passed' stop='1612848091658'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='4a7b3332-5e6e-4d58-9278-08ac34664d83-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='2df0f2e1-b4a0-4ebf-bf5d-8953a4ed4e10-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091664' status='passed' stop='1612848091666'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='8d91c48c-0c47-4bca-a8cb-a1d429597321-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091670' status='passed' stop='1612848091735'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='a19d85c7-1dd0-43f1-82cb-39ec3e592b89-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091736' status='passed' stop='1612848091738'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='5ed2a490-4879-4896-8ec7-95de1e61206d-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='f5e38e61-ff1f-4aa5-8d81-993345a0e8fc-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091740' status='passed' stop='1612848091742'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='7f5ece97-db69-45cb-a1f1-ff48eb279407-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091743' status='passed' stop='1612848091757'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='fc2262ad-83b5-4aba-9924-957afc0888d5-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091758' status='passed' stop='1612848091759'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='b2ae8de0-a67b-4bcd-b935-093cce543754-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='f4cb6d6a-1b09-4290-af6b-8616c98e474c-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848091762' status='passed' stop='1612848091797'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='ebea3dd7-c37f-4cae-9253-66d6c7bd83a2-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612848093818' status='passed' stop='1612848094218'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='811c8784-1c8b-49ce-9f9c-6dc0ccf665cc-attachment.png' type='image/png' size='249506'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'oleh' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'oleh' of undefined
+                    at Context.&lt;anonymous> (C:\Users\Oleg\WebstormProjects\ExampleCUP\test\specs\regression\/testLoginPage.js:13:25)
+                    at Context.executeSync (C:\Users\Oleg\WebstormProjects\ExampleCUP\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\Oleg\WebstormProjects\ExampleCUP\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
