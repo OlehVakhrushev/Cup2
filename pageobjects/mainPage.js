@@ -121,5 +121,4 @@ class MainPage {
         this.docs.click();
     }
 }
-lkjhgfdsfghjjhgfdfghj,.,
 module.exports = new MainPage();
