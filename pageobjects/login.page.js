@@ -3,10 +3,6 @@ export default class LoginPage {
         return $('#email-input');
     }
 
-    get headerLogin () {
-        return $(".cu-avatar.cu-simple-bar__bottom-avatar.ng-star-inserted.cu-avatar_online");
-    };
-
     get inputPassword () {
         return $('#password-input');
     }

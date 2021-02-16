@@ -1,10 +1,9 @@
 {
-  "name": "ExampleCUP",
+  "name": "c",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+    "test": "wdio ./wdio.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +28,8 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^1.7.0",
     "eslint-plugin-wdio": "^6.6.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.4",
     "wdio-chromedriver-service": "^6.0.4"
   },
   "dependencies": {
@@ -43,5 +44,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OlehVakhrushev/CUP.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/OlehVakhrushev/CUP/issues"
+  },
+  "homepage": "https://github.com/OlehVakhrushev/CUP#readme",
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }

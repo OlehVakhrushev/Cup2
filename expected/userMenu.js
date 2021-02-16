@@ -1,6 +1,5 @@
 const userMenu = {
-    "oleh": "OV"
-
+    oleh: "Oleh Vakhrushev"
 };
 
-export { userMenu };
+module.exports = userMenu;
