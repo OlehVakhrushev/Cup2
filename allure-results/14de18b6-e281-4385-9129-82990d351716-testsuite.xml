@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1613701722093' stop='1613701729639'>
+    <name>SideBar</name>
+    <title>SideBar</title>
+    <test-cases>
+        <test-case start='1613701722094' status='broken' stop='1613701727585'>
+            <name>Home Title</name>
+            <title>Home Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1613701722098' status='passed' stop='1613701725124'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2e4da86f-da37-4334-ab6f-ef756d4123a1-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725126' status='passed' stop='1613701725186'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14b5f4d7-ab32-454f-9558-135556faf2b5-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='bf5c8052-6464-45b3-855f-78a111a50ea3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725198' status='passed' stop='1613701725231'>
+                    <name>POST /session/:sessionId/element/1af3ae1b-f7bd-4518-b55e-70456d634a2c/clear</name>
+                    <title>POST /session/:sessionId/element/1af3ae1b-f7bd-4518-b55e-70456d634a2c/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613701725234' status='passed' stop='1613701725335'>
+                    <name>POST /session/:sessionId/element/1af3ae1b-f7bd-4518-b55e-70456d634a2c/value</name>
+                    <title>POST /session/:sessionId/element/1af3ae1b-f7bd-4518-b55e-70456d634a2c/value</title>
+                    <attachments>
+                        <attachment title='Request' source='6c5e733d-b80f-41eb-9207-7d479abdbb7d-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725335' status='passed' stop='1613701725346'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b5be80d-6ae5-4a0f-be00-de324ac69eca-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='105c1ef4-9dab-44e1-aaf7-85e2ebd6b8b9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725348' status='passed' stop='1613701725374'>
+                    <name>POST /session/:sessionId/element/bc829250-420b-4760-a465-85601ce2ea60/clear</name>
+                    <title>POST /session/:sessionId/element/bc829250-420b-4760-a465-85601ce2ea60/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613701725374' status='passed' stop='1613701725423'>
+                    <name>POST /session/:sessionId/element/bc829250-420b-4760-a465-85601ce2ea60/value</name>
+                    <title>POST /session/:sessionId/element/bc829250-420b-4760-a465-85601ce2ea60/value</title>
+                    <attachments>
+                        <attachment title='Request' source='6421f307-f0e4-436e-a09b-bc1c02918f7b-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725424' status='passed' stop='1613701725435'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c21575d8-b063-4d93-ad59-22790c6ae4f1-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='05dfddae-36f4-4310-947c-71e942d8d00d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1613701725436' status='passed' stop='1613701725510'>
+                    <name>POST /session/:sessionId/element/1e79b251-afa5-4583-9742-cf824f949993/click</name>
+                    <title>POST /session/:sessionId/element/1e79b251-afa5-4583-9742-cf824f949993/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1613701727515' status='broken' stop='1613701727585'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='62b6526e-7ba4-4120-a651-15cdde4f2830-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1613701727562' status='broken' stop='1613701727585'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=88.0.4324.150)
+                    at $ (/Users/olehv/WebstormProjects/Cup2/node_modules/@wdio/runner/build/index.js:114:42)
+                    at MainPage.homeBtn (/Users/olehv/WebstormProjects/Cup2/pageobjects/mainPage.js:44:17)
+                    at MainPage.openHome (/Users/olehv/WebstormProjects/Cup2/pageobjects/mainPage.js:49:14)
+                    at Context.&lt;anonymous> (/Users/olehv/WebstormProjects/Cup2/test/specs/smoke/testSideBarButtons.js:14:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1613701727586' status='broken' stop='1613701729639'>
+            <name>Notification Title</name>
+            <title>Notification Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1613701729588' status='broken' stop='1613701729638'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0d7498b0-b36f-44d5-a49b-8f897b6cd6c4-attachment.json' type='application/json' size='102'/>
+                    </attachments>
+                    <steps>
+                        <step start='1613701729617' status='broken' stop='1613701729638'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=88.0.4324.150)
+                    at $ (/Users/olehv/WebstormProjects/Cup2/node_modules/@wdio/runner/build/index.js:114:42)
+                    at MainPage.notificationBtn (/Users/olehv/WebstormProjects/Cup2/pageobjects/mainPage.js:53:16)
+                    at MainPage.openNotification (/Users/olehv/WebstormProjects/Cup2/pageobjects/mainPage.js:57:14)
+                    at Context.&lt;anonymous> (/Users/olehv/WebstormProjects/Cup2/test/specs/smoke/testSideBarButtons.js:20:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
