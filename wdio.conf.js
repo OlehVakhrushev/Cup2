@@ -18,7 +18,8 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.js'
-        './test/specs/smoke/testSideBarDisplayed.js'
+        // './test/specs/smoke/testSideBarDisplayed.js',
+        './test/specs/smoke/testSideBarButtons.js'
     ],
     // Patterns to exclude.
     exclude: [
